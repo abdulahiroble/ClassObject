@@ -15,6 +15,7 @@ public class Main {
 
         // person.udskriv();
 
+        // Instance of object
         Kat objKat = new Kat("perser", true, 2.5);
 
         objKat.udskriv();

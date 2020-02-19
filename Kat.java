@@ -3,12 +3,14 @@ public class Kat {
     private boolean sex;
     private double weight;
 
+    // constructor
     public Kat(String race, boolean sex, double weight) {
         this.race = race;
         this.sex = sex;
         this.weight = weight;
     }
 
+    // method
     public void udskriv() {
         System.out.print("Race: " + this.race);
         if (sex == true) {
